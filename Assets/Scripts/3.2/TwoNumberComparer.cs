@@ -12,8 +12,8 @@ public class TwoNumberComparer : MonoBehaviour
     public void Compare()
     {
         if (Mathf.Approximately(float.Parse(_a.text), float.Parse(_b.text)))
-            _c.text = "Равны";
+            _c.text = "Р Р°РІРЅС‹";
         else
-            _c.text = "Не равны";
+            _c.text = "РќРµ СЂР°РІРЅС‹";
     }
 }
