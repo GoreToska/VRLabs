@@ -98,9 +98,9 @@ public class LockPick : MonoBehaviour
         _isPlaying = false;
 
         if (win)
-            _endLabel.text = "Вы выиграли!";
+            _endLabel.text = "Капитан, вы остановили опасных преступников.";
         else
-            _endLabel.text = "Вы проиграли!";
+            _endLabel.text = "Капитан, совет безопасности разочарован в Вас. Вы будете заключены на пожизненный срок.";
 
         this.gameObject.SetActive(false);
         _endCanvas.SetActive(true);
