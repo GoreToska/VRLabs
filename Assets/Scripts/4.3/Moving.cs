@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour
 {
-    //[SerializeField] private GameObject _cube;
     [SerializeField] private List<GameObject> _points = new();
-    private int _index;
     [SerializeField] private float _speed;
+
+    private int _index;
     private GameObject _target;
     private bool _forward = true;
 
